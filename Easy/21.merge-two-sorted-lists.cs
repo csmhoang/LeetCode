@@ -3,7 +3,11 @@
  *
  * [21] Merge Two Sorted Lists
  */
-
+public class ListNode(int val = 0, ListNode next = null!)
+{
+    public int val = val;
+    public ListNode next = next;
+}
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -17,11 +21,6 @@
  * }
  */
 
-// public class ListNode(int val = 0, ListNode next = null!)
-// {
-//     public int val = val;
-//     public ListNode next = next;
-// }
 public class Solution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)
