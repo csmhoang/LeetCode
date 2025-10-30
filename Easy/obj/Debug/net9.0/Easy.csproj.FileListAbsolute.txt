@@ -1,0 +1,5 @@
+E:\LeetCode\Easy\obj\Debug\net9.0\Easy.GeneratedMSBuildEditorConfig.editorconfig
+E:\LeetCode\Easy\obj\Debug\net9.0\Easy.AssemblyInfoInputs.cache
+E:\LeetCode\Easy\obj\Debug\net9.0\Easy.AssemblyInfo.cs
+E:\LeetCode\Easy\obj\Debug\net9.0\Easy.csproj.CoreCompileInputs.cache
+E:\LeetCode\Easy\obj\Debug\net9.0\Easy.sourcelink.json

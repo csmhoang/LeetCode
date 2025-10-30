@@ -20,9 +20,9 @@ public class Solution
         string prefixString = string.Empty;
         for (int i = 0; i < strs[0].Length; i++)
         {
-            foreach (var str in strs)
+            for (int j = 1; j < strs.Length; j++)
             {
-                if (i > str.Length - 1 || strs[0][i] != str[i])
+                if (i > strs[j].Length - 1 || strs[0][i] != strs[j][i])
                 {
                     return prefixString;
                 }

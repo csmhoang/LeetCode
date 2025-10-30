@@ -1,0 +1,31 @@
+/*
+ * @lc app=leetcode id=70 lang=csharp
+ *
+ * [70] Climbing Stairs
+ */
+
+// @lc code=start
+public class Solution
+{
+    public int ClimbStairs(int n)
+    {
+        if (n <= 3)
+        {
+            return n;
+        }
+        
+        int prev1 = 3;
+        int prev2 = 2;
+        int cur = 0;
+
+        for (int i = 3; i < n; i++)
+        {
+            cur = prev1 + prev2;
+            prev2 = prev1;
+            prev1 = cur;
+        }
+        return cur;
+    }
+}
+// @lc code=end
+
